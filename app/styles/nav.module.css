@@ -1,0 +1,73 @@
+.main {
+  display: none;
+  background-color: white;
+  padding: 0px 0px 0px 20px;
+  gap: 10px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.homeIcon {
+  border-right: 2px solid #eeeeee;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+.links {
+  flex: 2;
+}
+.hamburgerIcon {
+  background-color: #000e56;
+  width: 50px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburgerIconClick {
+  background-color: #ffffff;
+  padding: 0 20px;
+}
+.servicesContainer{
+  display: none;
+}
+.blackScreenVisible{
+  display: none;
+}
+
+/* media query */
+
+@media screen and (max-width: 769px) {
+  .hamburgerIcon {
+    display: flex;
+  }
+ 
+  /* .main {
+    display: none;
+  } */
+}
+@media (max-width: 426px) {
+  .main {
+    display: flex;
+  }
+  .servicesContainer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+  .blackScreenVisible{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: #3b343469;
+    z-index: 1;
+  }
+
+  
+}
+@media screen and (min-width: 770px) {
+  .servicesContainer {
+    display: none;
+  }
+}

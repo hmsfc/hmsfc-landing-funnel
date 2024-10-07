@@ -1,0 +1,56 @@
+.main {
+	display: flex;
+	flex: 1;
+	background-color: white;
+	gap: 10px;
+	justify-content: space-between;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+.homeIcon {
+	border-right: 2px solid #eeeeee;
+	width: 50px;
+	display: flex;
+	align-items: center;
+}
+.links {
+	flex: 1;
+}
+.hamburgerIcon {
+	background-color: #000e56;
+	width: 50px;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hamburgerIconClick {
+	background-color: #ffffff;
+}
+
+/* animation list */
+
+/* Styles for the services container */
+.servicesContainer {
+	overflow: hidden; /* Ensure that content does not overflow */
+	white-space: nowrap; /* Prevent wrapping */
+	transition: transform 0.5s ease; /* Smooth transition for slide effect */
+	/* transform: translateX(-100%); */
+}
+
+/* Show the services container */
+.show {
+	transform: translateX(0); /* Move to visible position */
+}
+
+/* Hide the services container */
+.hide {
+	transform: translateX(-100%); /* Move off-screen to the left */
+}
+/* media query */
+
+@media screen and (min-width: 768px) {
+	.hamburgerIcon {
+		display: none;
+	}
+}

@@ -1,0 +1,124 @@
+.main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: space-between;
+	padding: 20px;
+}
+.heading {
+	font-size: 18px;
+	font-weight: 600;
+}
+.paragraph {
+	margin: 0px;
+	font-size: 14px;
+	color: var(--primary-little-dark);
+	font-weight: 600;
+}
+
+.announcementText {
+	text-align: justify;
+	font-size: 16px;
+	flex: 1;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 50px;
+}
+.announcement {
+	background-color: white;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.announcementIn {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+.announcementBtn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	flex: 0.5;
+}
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.cancelIcon,
+.cancelIconInside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.cancelIconInside {
+	display: flex;
+}
+.cancelIcon {
+	display: none;
+}
+.cancelBtn {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.cancelBtnText {
+	color: var(--secondary-text);
+	font-size: 12px;
+}
+.cancel {
+	text-align: center;
+}
+.linkText {
+	color: var(--primary-dark);
+	size: 10px;
+}
+
+.iconSize {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+/* media query */
+
+@media screen and (max-width: 769px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.iconSize {
+		width: 24px;
+		height: 24px;
+	}
+	.links {
+		gap: 10px;
+	}
+	.paragraph {
+		font-size: 12px;
+		font-weight: 600;
+	}
+	.announcementText {
+		font-size: 14px;
+	}
+
+	.cancelIcon {
+		display: flex;
+	}
+	.cancelIconInside {
+		display: none;
+	}
+}

@@ -1,0 +1,133 @@
+/* .blackScreen {
+  position: absolute;
+  height: 100vh;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--black-screen);
+} */
+.headline {
+  box-shadow: 4px 4px 100px 0px rgba(160, 160, 160, 0.12);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.heading {
+  color: var(--canvas-pure);
+  font-size: 46px;
+}
+.Heading2 {
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+.subHeadding {
+  color: var(--canvas-pure);
+  font-size: 20px;
+  font-weight: 500;
+}
+.contant {
+  background-color: var(--primary-blue);
+  padding: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.certificationsDiv {
+  display: flex;
+  gap: 20px;
+}
+.headerMid {
+  padding: 35px 30px;
+  border: 1px solid var(--border-color);
+}
+
+.headerMidValue {
+  color: var(--canvas-pure);
+  font-size: 46px;
+  margin-left: -40px;
+}
+.leftBtnDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftBtn{
+  position: absolute;
+  padding: 8px 24px;
+  font-family: var(--font-inter);
+  background-color: var(--canvas-pure);
+  color: var(--canvas-board);
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: -250px;
+}
+.leftBtnHeading{
+  font-size: 15px;
+  color: var(--dark);
+}
+.phara {
+  color: white;
+  font-size: 15px;
+}
+.mainImg {
+  width: 400px;
+  height: 600px;
+}
+.mainPhara {
+  width: 700px;
+}
+.headerRightSide {
+  display: flex;
+}
+@media screen and (max-width: 1025px) {
+  .mainPhara {
+    width: 100%;
+  }
+  .mainImg {
+    width: 300px;
+    height: 500px;
+  }
+  .heading {
+    font-size: 43px;
+  }
+  .phara {
+    font-size: 13px;
+  }
+}
+@media (max-width: 426px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .modelText {
+    display: flex;
+    align-items: center;
+  }
+  .right {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .headerMid {
+    text-align: left;
+    padding: 25px;
+  }
+  .rightSide {
+    align-items: center;
+    text-align: center;
+  }
+}

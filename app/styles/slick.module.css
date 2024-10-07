@@ -1,0 +1,44 @@
+.slick {
+    background-color: var(--primary-dark);
+    width: 60%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 3px 0px 60px 0px #182463;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.title {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.closer {
+    display: grid;
+    place-items: center;
+}
+
+.launch {
+    border-radius: 1.614px;
+    background-color: #3A457F;
+    padding: 15px 32px;
+    font-size: 10px;
+    width: 100%;
+    margin: 32px 0px;
+}
+
+.control {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    grid-gap: 12px;
+    margin: 24px 0px;
+    cursor: pointer;
+    align-items: center;
+}

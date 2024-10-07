@@ -1,0 +1,36 @@
+    .tail {
+        display: grid;
+        grid-auto-flow: column;
+        background-color: var(--primary-dark);
+        align-items: center;
+        padding: 12px 8px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .control {
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+    }
+
+    .estimate h4,
+    .industries h4,
+    .insights h4,
+    .works h4 {
+        background-color: var(--primary-dark);
+        color: white;
+        padding: 10px;
+    }
+
+    .estimate,
+    .industries,
+    .insights,
+    .works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }

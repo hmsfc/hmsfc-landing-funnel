@@ -1,0 +1,56 @@
+.float {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 4px 4px 100px 0px rgba(160, 160, 160, 0.12);
+}
+
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  padding: 30px 5px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  color: var(--secondary-text);
+}
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrowImg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.links::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 5px;
+  background-color: #00ff29;
+  transition: width 0.3s ease;
+}
+
+.activeLink::after {
+  width: 100%; /* Full width for the active link */
+}
+.tabViewList {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .links {
+    font-size: 12px;
+  }
+}

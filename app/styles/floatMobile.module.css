@@ -1,0 +1,58 @@
+.float {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 4px 4px 100px 0px rgba(160, 160, 160, 0.12);
+}
+.links {
+	padding: 20px;
+	position: relative;
+	font-size: 15px;
+	display: flex;
+	gap: 10px;
+	color: var(--secondary-text);
+}
+.arrowImg {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.links::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px; /* Adjust height as needed */
+	background-color: #000e56; /* Color of the bottom border */
+	transition: width 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.activeLink::after {
+	width: 100%; /* Full width for the active link */
+}
+.tabViewList {
+	display: flex;
+	justify-content: space-between;
+}
+.mobileViewList {
+	display: none;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+	.links {
+		font-size: 12px;
+		padding: 15px;
+	}
+	.tabViewList {
+		display: none;
+	}
+	.mobileViewList {
+		display: flex;
+		justify-content: space-between;
+	}
+}

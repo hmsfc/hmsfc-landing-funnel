@@ -1,0 +1,195 @@
+{
+  "brand": {
+    "label": "The Madras Wallstreet",
+    "logoPath": "./brand/labels/color.svg",
+    "logoPathColor": "./brand/labels/color.svg",
+    "quotes": "Learn effective ways to monetize skills and self-employ yourself",
+     "breakAfter": "monetize "
+  },
+  "hero":{
+    "label":"Zero to One Lack",
+    "breakLabel":"to",
+    "number":"05",
+    "subLabel":"Step Income Generation Model",
+    "breakSubLabel":" ",
+    "content":"Unlock 20+  essential tools and acquire fundamental knowledge to generate a six figure revenue from scratch as a student, freelancer or service agency in a three hours live WORKSHOP, with Agni.",
+    "certification":[
+     {
+      "label":"Money Back Guarantee",
+      "icon":"/icons/certifications/moneyBack.svg",
+      "split":"Back"
+     },
+     {
+      "label":"Unlimited & Flexible Reschedules",
+      "icon":"/icons/certifications/neverEx.svg",
+      "split":"Flexible"
+     },
+     {
+      "label":"Lifetime Accessible Tools + Community",
+      "icon":"/icons/certifications/gold.svg",
+      "split":"Accessible"
+     }
+    ]
+  },
+  "announcement": {
+    "title": "Get a free Audit now.",
+    "content": "Provide us relevant details and our audit team shall analyse your business’s digital presentence and deliver you a report of improvisation areas to worked out, to skyrocket your digital salkes",
+    "icons": {
+      "download": {
+        "label": "Download Circular",
+        "icon": "./icons/announcement/download.svg"
+      },
+      "upload": {
+        "label": "Visit Website",
+        "icon": "./icons/announcement/upload.svg"
+      },
+      "close": {
+        "label": "Close",
+        "icon": "./icons/announcement/close.svg"
+      }
+    }
+  },
+  "Mobilenavigation": {
+    "label": "homeLogo",
+    "homeIconUrl": "./icons/home/home.svg"
+   
+  },
+  "links": {
+    "NavigationLinks": [
+      {
+        "label": "Overview",
+        "url": "/",
+        "icon": "./icons/services/company.svg"
+      },
+      {
+        "label": "Perks & Benefits",
+        "url": "/",
+        "icon": "./icons/services/services.svg"
+      },
+      {
+        "label": "Success Stories",
+        "url": "/",
+        "icon": "./icons/services/customer.svg"
+      },
+      {
+        "label": "Criterias",
+        "url": "/",
+        "icon": "./icons/services/industries.svg"
+      }
+    ],
+    "ctrlLinks": [
+      {
+        "label": "Works",
+        "url": "/works",
+        "icon": "works"
+      },
+      {
+        "label": "Industries",
+        "url": "/industries",
+        "icon": "industries"
+      },
+      {
+        "label": "Company",
+        "url": "/",
+        "icon": "company"
+      },
+      {
+        "label": "Estimations",
+        "url": "/estimations",
+        "icon": "estimations"
+      },
+      {
+        "label": "Insights",
+        "url": "/insights",
+        "icon": "insights"
+      }
+    ]
+  },
+  "footer": {
+    "sarvalokaLogo":"/brand/labels/sarvaloka.svg",
+    "copyright_max": "Copyright © All Rights Reserved | The Madras Wallstreet Growth Consulting ® TMWGC | Incorporated as Dewallstreet Private Limited",
+    "copyright_min": "Copyright © All Rights Reserved | ® TMWGC",
+    "labels": [
+      "Privacy Policies",
+      "Terms of Services",
+      "Honor Codes",
+      "Legal Documents",
+      "Corporate Governance"
+    ],
+    "address":"2nd Floor, Jalani Towers, Gandhi Rd, Pammal",
+    "pincode":"Chennai, Tamil Nadu - 600075",
+    "InstituteName":"Dehustle Institute Private Limited",
+    "Institute_discription":"Registered and Incorporated Under Ministry of Corporate Affairs as",
+    "Institute_details":"In the competitive world of aviation, helicopter service providers must differentiate themselves from the competition to attract high-end clientele. Luxury, exotic, and signature experiences are what discerning  customers are seeking, and branding plays a critical role in conveying these values. Crafting a strong brand strategy, coupled with an effective content and digital strategy, can elevate a helicopter service provider from being just a mode of transportation to a sought-after experience. This article delves into the critical importance of branding for helicopter service providers in the aviation industry and the key strategies they can employ to stand out in a crowded marketplace.",
+    "license_informations":{
+      "label":"Registration & License Informations",
+      "license":[
+        {
+          "label":"Corporate Identification Number",
+          "number":"U72900TN2021PTC145104"
+        },
+        {
+          "label":"Goods & Service Tax Number",
+          "number":"33AAICD6464C1ZU"
+        },
+        {
+          "label":"Permanent Account Number",
+          "number":"CHED13076A"
+        },
+        {
+          "label":"Tax Deduction Number",
+          "number":"CHED13076A"
+        }
+      ]
+    },
+    "certification":[
+     {
+      "label":"Government of India Tax Registration & Annual Compliance Filings",
+      "icon":"/icons/certifications/1.svg",
+      "split":"Back"
+     },
+     {
+      "label":"Certificate of Incorporation, Shareholders Pattern, Articles of Association & Memorandums",
+      "icon":"/icons/certifications/2.svg",
+      "split":"Flexible"
+     },
+     {
+      "label":"Press Releases, Official Announcements, & Other Company Gazette Documents",
+      "icon":"/icons/certifications/3.svg",
+      "split":"Accessible"
+     }
+    ]
+  },
+  "socialMediaIcons":[
+    {
+      "icon":"/icons/socialMedia/twitter.svg",
+      "label":"Twitter"
+    },
+    {
+      "icon":"/icons/socialMedia/linkedin.svg",
+      "label":"Linkedin"
+    },
+    {
+      "icon":"/icons/socialMedia/youtube.svg",
+      "label":"Youtube"
+    },
+    {
+      "icon":"/icons/socialMedia/faceBook.svg",
+      "label":"FaceBook"
+    },
+    {
+      "icon":"/icons/socialMedia/faceBook.svg",
+      "label":"FaceBook"
+    }
+  ],
+  "contactIcons":[
+    {
+      "icon":"/icons/socialMedia/phone.svg",
+      "label":"9677754778"
+    }, 
+    {
+      "icon":"/icons/socialMedia/send.svg",
+      "label":"edu@sarvaloka.in"
+    }
+  ]
+}

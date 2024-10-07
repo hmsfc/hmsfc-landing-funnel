@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+    
+}
+.serviceslist {
+    background-color: white;
+}
